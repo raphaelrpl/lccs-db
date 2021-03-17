@@ -46,7 +46,7 @@ setup_requires = [
 ]
 
 install_requires = [
-    'bdc-db @ git+https://github.com/brazil-data-cube/bdc-db@v0.4.2'
+    'bdc-db @ git+https://github.com/brazil-data-cube/bdc-db@v0.4.3'
 ]
 
 packages = find_packages()
@@ -61,7 +61,7 @@ setup(
     version=version,
     description=__doc__,
     long_description=readme + '\n\n' + history,
-    long_description_content_type = 'text/x-rst',
+    long_description_content_type='text/x-rst',
     keywords=['Land Use Land Cover', 'GIS', 'Database', 'Model', 'Classification System'],
     license='MIT',
     author='Brazil Data Cube Team',
